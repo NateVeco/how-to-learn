@@ -51,6 +51,11 @@
   font-weight: normal;
   left: 64px;
   bottom: 30px;
+  text-decoration: none;
+}
+
+.header__link {
+  text-decoration: none;
 }
 
 .header-main-illustration {
@@ -68,6 +73,37 @@
   position: absolute;
   top: 64px;
   right: 0px;
+}
+
+.two-columns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 80%;
+  margin: auto;
+}
+
+.two-columns__brief {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  width: 175px;
+  color: #2f80ed;
+  min-height: 300px;
+}
+
+.two-columns__main-text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  min-width: 784px;
+  width: 80%;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
 }
 
 /* это потом! */
