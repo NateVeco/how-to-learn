@@ -75,12 +75,14 @@
   right: 0px;
 }
 
+.description {
+  margin-top: 100px;
+}
+
 .two-columns {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 100px;
-  padding-bottom: 100px;
   width: 80%;
   margin: auto;
 }
@@ -91,7 +93,7 @@
   font-weight: normal;
   width: 175px;
   color: #2f80ed;
-  min-height: 300px;
+  min-height: 390px;
 }
 
 .two-columns__main-text {
@@ -106,10 +108,68 @@
   font-weight: bold;
 }
 
-/* это потом! */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+.two-columns__paragraph {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.digits {
+  margin-top: 100px;
+}
+
+.section-title {
+  width: 60%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1100px;
+  margin-bottom: 100px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 60px 60px 60px 60px;
+}
+
+.table__cell {
+  width: 250px;
+  vertical-align: top;
+  padding-left: 20px;
+  padding-top: 60px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
 }
