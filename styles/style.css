@@ -353,6 +353,7 @@
 
 .footer__columns_content_social {
   position: relative;
+  justify-content: space-between;
   text-align: left;
 }
 
