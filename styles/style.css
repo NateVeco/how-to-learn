@@ -175,7 +175,6 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  list-style: none;
   width: 250px;
   margin: 0;
 }
@@ -184,6 +183,7 @@ ul {
   width: 250px;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 .table__heading {
@@ -267,7 +267,7 @@ ul {
 }
 
 .table_theme_dark {
-  width: 1300px;
+  width: 1100px;
   margin-bottom: 90px;
   z-index: 3;
 }
