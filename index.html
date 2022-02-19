@@ -29,7 +29,7 @@
       </header>
       <main class="content">
         <section class="description">
-          <div class="two-columns">
+          <article class="two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
             <div class="two-columns__main-text">
               <p class="two-columns__paragraph">
@@ -50,7 +50,7 @@
                 техники применяются на примере обучения в Практикуме.
               </p>
             </div>
-          </div>
+          </article>
         </section>
         <section class="techniques">
           <h2 class="section-title">Техники обучения</h2>
@@ -122,31 +122,25 @@
           <h2 class="section-title">Видео на TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
           <div class="video__iframes">
-            <div class="video__iframe">
-              <iframe
-                width="515"
-                height="316"
-                src="https://www.youtube.com/embed/5MgBikgcWnY"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <div class="video__iframe">
-              <iframe
-                width="515"
-                height="316"
-                src="https://www.youtube.com/embed/arj7oStGLkU"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-            </div>
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube.com/embed/5MgBikgcWnY"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              class="video__iframe"
+              src="https://www.youtube.com/embed/arj7oStGLkU"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
         </section>
         <section class="oakley">
-          <div class="two-columns">
-            <h3 class="two-columns__brief">История Барбары Оакли.</h3>
+          <article class="two-columns">
+            <h2 class="two-columns__brief">История Барбары Оакли.</h2>
             <div class="two-columns__main-text">
               <p class="two-columns__paragraph">
                 С детства Барбаре не давалась математика. Она считала себя
@@ -159,7 +153,7 @@
                 кому всё ясно с первого взгляда.
               </p>
             </div>
-          </div>
+          </article>
         </section>
         <section class="feynman">
           <h2 class="feynman__title">Метод Феймана</h2>
@@ -233,7 +227,9 @@
                 alt="книга"
                 class="khan__book-pic"
               />
-              <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
+              <a href="#" class="khan__buy-link" target="_blank"
+                >Купить книгу &rarr;</a
+              >
             </div>
           </div>
         </section>
@@ -314,26 +310,30 @@
             Больше материалов о техниках и лайфхаквх обучения
           </p>
           <div class="resources__logo-zone">
-            <img
-              src="./images/resources-arzamas.svg"
-              alt="Арзамас"
-              class="resources__logo"
-            />
-            <img
-              src="./images/resources-n1.svg"
-              alt="энодин"
-              class="resources__logo"
-            />
-            <img
-              src="./images/resources-strelka.svg"
-              alt="стрелка"
-              class="resources__logo"
-            />
-            <img
-              src="./images/resources-polka.svg"
-              alt="полка"
-              class="resources__logo"
-            />
+            <a href="#">
+              <img
+                src="./images/resources-arzamas.svg"
+                alt="Арзамас"
+                class="resources__logo"
+            /></a>
+            <a href="#">
+              <img
+                src="./images/resources-n1.svg"
+                alt="энодин"
+                class="resources__logo"
+            /></a>
+            <a href="#">
+              <img
+                src="./images/resources-strelka.svg"
+                alt="стрелка"
+                class="resources__logo"
+            /></a>
+            <a href="#">
+              <img
+                src="./images/resources-polka.svg"
+                alt="полка"
+                class="resources__logo"
+            /></a>
           </div>
         </section>
       </main>
@@ -351,13 +351,13 @@
             <h3 class="footer__column-heading">О Практикуме</h3>
             <ul class="footer__column-links">
               <li>
-                <a class="footer__column-link">Главная</a>
+                <a href="#" class="footer__column-link">Главная</a>
               </li>
               <li>
-                <a class="footer__column-link">Концепция</a>
+                <a href="#" class="footer__column-link">Концепция</a>
               </li>
               <li>
-                <a class="footer__column-link">Наставники</a>
+                <a href="#" class="footer__column-link">Наставники</a>
               </li>
             </ul>
           </nav>

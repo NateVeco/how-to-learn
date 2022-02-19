@@ -11,7 +11,5 @@
 
 .feynman__link:hover {
   opacity: 0.33;
-  color: rgb(15, 192, 139);
-  transform: translateX(20px);
   transition: 1.5s;
 }
